@@ -119,3 +119,11 @@ p {
 .shotokan {
   max-width: 250px;
 }
+
+.codedby {
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  font-family: "Courgette", cursive;
+  color: white;
+}
