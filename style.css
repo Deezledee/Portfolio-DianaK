@@ -127,3 +127,9 @@ p {
   font-family: "Courgette", cursive;
   color: white;
 }
+
+@media (min-width: 576px) {
+  .diana {
+    font-size: 100px;
+  }
+}
