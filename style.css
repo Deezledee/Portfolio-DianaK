@@ -116,3 +116,6 @@ p {
   font-size: 28px;
   font-family: "Courgette", cursive;
 }
+.shotokan {
+  max-width: 250px;
+}
