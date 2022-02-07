@@ -1,2 +1,2 @@
-# Portfolio-dianaK
+# Portfolio-DianaK
 Created with CodeSandbox
