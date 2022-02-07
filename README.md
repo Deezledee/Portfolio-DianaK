@@ -1,2 +1,2 @@
-# Advanced-Bootstrap-Homework-DianaK
+# Portfolio-dianaK
 Created with CodeSandbox
