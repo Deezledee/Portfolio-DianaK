@@ -50,6 +50,11 @@ p {
   text-align: center;
 }
 
+.navbar-nav {
+    justify-content: center;
+    align-items: center;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
