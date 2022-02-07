@@ -11,6 +11,10 @@ body {
   background: var(--secondary-color);
 }
 
+.linkedin-diana {
+  font-size: 25px;
+}
+
 h1,
 h2,
 h3 {
