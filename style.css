@@ -21,7 +21,7 @@ body {
   font-size: 20px;
   margin: 0 auto;
   margin-left: 5px;
-  background: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 h1,
