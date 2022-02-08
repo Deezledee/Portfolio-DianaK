@@ -3,6 +3,7 @@
   --secondary-color: #655d8a;
   --tertiary-color: #d9d7f1;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --fa-primary-color: #d9d7f1;
 }
 
 .hero {
@@ -19,8 +20,8 @@ body {
 .linkedin-diana {
   font-size: 20px;
   margin: 0 auto;
-  color: var(--secondary-color);
-  margin-left: 20px;
+  color: var( --fa-primary-color);
+  margin-left: 5px;
 }
 
 h1,
