@@ -14,14 +14,14 @@
 body {
   margin: 60px auto;
   max-width: 800px;
-  color: var(--tertiary-color);
+  background: var(--secondary-color);
 }
 
 .linkedin-diana {
   font-size: 20px;
   margin: 0 auto;
   margin-left: 5px;
-  color: var(--tertiary-color);
+  color: var(--primary-color);
 }
 
 h1,
