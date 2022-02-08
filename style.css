@@ -19,6 +19,7 @@ body {
 .linkedin-diana {
   font-size: 20px;
   margin: 0 auto;
+   color: var(--tertiary-color);
 }
 
 h1,
