@@ -48,6 +48,14 @@ h3 {
   opacity: 0.7;
 }
 
+.front-end-dev {
+color: while;
+}
+
+.aboutmepage {
+  color: while;
+}
+
 p {
   background: var(--tertiary-color);
   padding: 20px;
