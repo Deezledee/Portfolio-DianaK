@@ -1,9 +1,13 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #FFFDDE;
   --secondary-color: #655d8a;
   --tertiary-color: #d9d7f1;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
  
+}
+
+.karate-page-link {
+    color: var(--primary-color) !important;
 }
 
 .hero {
