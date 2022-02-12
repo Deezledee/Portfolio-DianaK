@@ -110,6 +110,10 @@ background: var(--primary-color);
   display: block;
 }
 
+.shotokan {
+max-width: 397px;
+}
+
 .about-paragraphs {
   display: flex;
   margin: 30px 0;
