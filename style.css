@@ -49,11 +49,11 @@ h3 {
 }
 
 .front-end-dev {
-color: while;
+color: white;
 }
 
 .aboutmepage {
-  color: while;
+  color: white;
 }
 
 p {
@@ -63,7 +63,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
-  color: FFFDDE;
+   color: var(--primary-color);
 }
 
 .navbar-nav {
