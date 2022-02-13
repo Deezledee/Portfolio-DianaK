@@ -140,6 +140,15 @@ background: var(--primary-color);
   text-decoration: none;
 }
 
+.facebook-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+
 .email-link:hover {
   text-decoration: underline;
 }
