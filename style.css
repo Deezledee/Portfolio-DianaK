@@ -21,6 +21,15 @@ body {
   background: var(--secondary-color);
 }
 
+.contact-me-title {
+  font-size: 50px;
+  discplay: block;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+ font-family: "Courgette", cursive;
+}
+
 .linkedin-diana {
   font-size: 36px;
   margin: 0 auto;
