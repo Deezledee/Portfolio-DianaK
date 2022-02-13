@@ -28,6 +28,12 @@ body {
   color: var(--tertiary-color) !important;
 }
 
+.facebook-diana {
+  font-size: 20px;
+  margin: 0 auto;
+  color: var(--tertiary-color) !important;
+}
+
 .text-start {
   color:white;  
   margin-bottom: 10px;
