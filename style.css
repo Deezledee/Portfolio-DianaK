@@ -154,7 +154,15 @@ background: var(--primary-color);
 }
 
 .instagram-icon {
-max-width: 25px;
+max-width: 30px;
+}
+
+.facebook-icon {
+max-width: 30px;
+}
+
+.gmail-icon {
+max-width: 30px;
 }
 
 .instagram-link {
