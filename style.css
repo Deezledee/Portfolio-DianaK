@@ -129,7 +129,7 @@ background: var(--primary-color);
 .email-to {
   justify-content: center;
   color: var(--primary-color);
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: none;
   text-align: center;
   font-family: "Courgette", cursive;
@@ -139,7 +139,7 @@ background: var(--primary-color);
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: none;
   font-family: "Courgette", cursive;
 }
@@ -147,10 +147,14 @@ background: var(--primary-color);
 .facebook-link {
   text-align: center;
   color: var(--primary-color);
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: none;
   display: block;
   font-family: "Courgette", cursive;
+}
+
+.instagram-icon {
+max-width: 25px;
 }
 
 .instagram-link {
