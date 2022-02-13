@@ -22,13 +22,13 @@ body {
 }
 
 .linkedin-diana {
-  font-size: 20px;
+  font-size: 36px;
   margin: 0 auto;
   margin-left: 5px;
   color: var(--tertiary-color) !important;
 }
 
-.facebook-diana {
+.facebook-icon {
   font-size: 20px;
   margin: 0 auto;
   color: var(--tertiary-color) !important;
