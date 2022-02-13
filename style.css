@@ -126,6 +126,14 @@ background: var(--primary-color);
   margin: 10px;
 }
 
+.email-to {
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+  text-align: center;
+}
+
 .email-link {
   display: flex;
   justify-content: center;
