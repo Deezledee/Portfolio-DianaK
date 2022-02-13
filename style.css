@@ -28,12 +28,6 @@ body {
   color: var(--tertiary-color) !important;
 }
 
-.facebook-icon {
-  font-size: 20px;
-  margin: 0 auto;
-  color: var(--tertiary-color) !important;
-}
-
 .text-start {
   color:white;  
   margin-bottom: 10px;
@@ -141,15 +135,20 @@ background: var(--primary-color);
 }
 
 .facebook-link {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  display: block;
 }
 
 
 .email-link:hover {
+  text-decoration: underline;
+}
+
+
+.facebook-link:hover {
   text-decoration: underline;
 }
 
