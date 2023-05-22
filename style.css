@@ -1,50 +1,55 @@
 :root {
-  --primary-color: #EFFCB6;
+  --primary-color: #effcb6;
   --secondary-color: #000000;
-  --tertiary-color: #3DDE38;
+  --tertiary-color: #3dde38;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
- 
 }
 
 .karate-page-link {
-    color: var(--primary-color) !important;
+  color: var(--primary-color) !important;
 }
 
 .hero {
-  background-color: #3DDE38;
-    margin-top: 100px;
-    border-radius: 20px;
+  background-color: #3dde38;
+  margin-top: 100px;
+  border-radius: 20px;
+  padding-top: 30px;
 }
 
 body {
   margin: 60px auto;
   max-width: 800px;
   background: var(--secondary-color);
-  
 }
 
 .b {
   color: #000000;
+  font-weight: bold;
 }
 
 .e {
-  color: #ED2410;
+  color: #ed2410;
+  font-weight: bold;
 }
 
 .r {
-  color: #F3F93D;
+  color: #f3f93d;
+  font-weight: bold;
 }
 
 .l {
   color: #000000;
+  font-weight: bold;
 }
 
 .i {
-  color: #ED2410;
+  color: #ed2410;
+  font-weight: bold;
 }
 
 .n {
-  color: #F3F93D;
+  color: #f3f93d;
+  font-weight: bold;
 }
 
 .contact-me-title {
@@ -53,20 +58,29 @@ body {
   margin: 0 auto;
   color: white;
   text-align: center;
- font-family: "Courgette", cursive;
+  font-family: "Courgette", cursive;
 }
 
-
+.text-start-title {
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+}
 
 .text-start {
-  color:white;  
-  margin-bottom: 10px;
+  color: #000000;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .text-end {
-  color:white;
+  color: white;
   margin-bottom: 10px;
- }
+}
 
 h1,
 h2,
@@ -89,7 +103,7 @@ h3 {
 }
 
 .front-end-dev {
-color: white;
+  color: white;
 }
 
 .aboutmepage {
@@ -97,7 +111,7 @@ color: white;
 }
 
 .shotokan-karate {
-width: 397px;
+  width: 397px;
 }
 
 p {
@@ -107,19 +121,17 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
-   color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .navbar-nav {
-    justify-content: center;
-    align-items: center;
-    background-color: #EFFCB6;
+  justify-content: center;
+  align-items: center;
+  background-color: #effcb6;
 }
 
-
 .container-fluid {
-  background-color: #EFFCB6;
-
+  background-color: #effcb6;
 }
 
 .nav-item {
@@ -132,33 +144,44 @@ p {
 
 .linkedin-logo {
   margin-left: 5px;
-
 }
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
+  margin-top: 30px;
   justify-content: center;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 .navigation-links a {
-  margin: 20px;
+  margin: 30px;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 15px 25px;
+  font-size: 20px;
   text-decoration: none;
-  text-transform: capitalize;
+}
+
+.navigation-links a:hover {
+  background-color: #5a5959;
+  color: #effcb6;
+  margin: 30px;
+  border-radius: 4px;
+  padding: 15px 25px;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-   color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .about-link {
-background: var(--primary-color);
+  background: var(--primary-color);
   box-shadow: var(--box-shadow);
-   color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .homepage-link {
@@ -204,15 +227,15 @@ background: var(--primary-color);
 }
 
 .instagram-icon {
-max-width: 30px;
+  max-width: 30px;
 }
 
 .facebook-icon {
-max-width: 30px;
+  max-width: 30px;
 }
 
 .gmail-icon {
-max-width: 30px;
+  max-width: 30px;
 }
 
 .instagram-link {
@@ -228,11 +251,16 @@ max-width: 30px;
   text-decoration: underline;
 }
 
-
 .facebook-link:hover {
   text-decoration: underline;
 }
 
+.heyIAm {
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+
+
+}
 .diana {
   text-align: center;
   display: block;
@@ -248,10 +276,10 @@ max-width: 30px;
 .diana-image {
   display: block;
   margin: 0 auto;
-  max-width: 200px;
+  max-width: 280px;
 }
 
-.front-end {
+.full-stack {
   text-align: center;
   display: block;
   font-size: 28px;
@@ -265,8 +293,28 @@ max-width: 30px;
   text-align: center;
   display: block;
   font-size: 20px;
-  font-family: "Courgette", cursive;
-  color: white;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+}
+
+.open-sourced {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+
+.open-sourced:hover {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.hosted-on {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+
+.hosted-on:hover {
+  text-decoration: none;
+  color: var(--primary-color);
 }
 
 @media (min-width: 576px) {
