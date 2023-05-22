@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #FFFDDE;
-  --secondary-color: #655d8a;
-  --tertiary-color: #1572A1;
+  --primary-color: #EFFCB6;
+  --secondary-color: #000000;
+  --tertiary-color: #3DDE38;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
  
 }
@@ -11,31 +11,52 @@
 }
 
 .hero {
-  background-color: #655d8a;
+  background-color: #3DDE38;
     margin-top: 100px;
+    border-radius: 20px;
 }
 
 body {
   margin: 60px auto;
   max-width: 800px;
   background: var(--secondary-color);
+  
+}
+
+.b {
+  color: #000000;
+}
+
+.e {
+  color: #ED2410;
+}
+
+.r {
+  color: #F3F93D;
+}
+
+.l {
+  color: #000000;
+}
+
+.i {
+  color: #ED2410;
+}
+
+.n {
+  color: #F3F93D;
 }
 
 .contact-me-title {
   font-size: 50px;
-  discplay: block;
+  display: block;
   margin: 0 auto;
   color: white;
   text-align: center;
  font-family: "Courgette", cursive;
 }
 
-.linkedin-diana {
-  font-size: 36px;
-  margin: 0 auto;
-  margin-left: 5px;
-  color: var(--tertiary-color) !important;
-}
+
 
 .text-start {
   color:white;  
@@ -92,6 +113,26 @@ p {
 .navbar-nav {
     justify-content: center;
     align-items: center;
+    background-color: #EFFCB6;
+}
+
+
+.container-fluid {
+  background-color: #EFFCB6;
+
+}
+
+.nav-item {
+  margin: 5px;
+}
+
+.github-logo {
+  margin-left: 15px;
+}
+
+.linkedin-logo {
+  margin-left: 5px;
+
 }
 
 .navigation-links {
