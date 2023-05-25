@@ -213,6 +213,11 @@ p {
   margin: 0 50px;
 }
 
+@media (max-width: 480px) {
+  .social-links li {
+    margin: 0 5px;
+  } 
+}
 .email-to {
   justify-content: center;
   color: var(--primary-color);
