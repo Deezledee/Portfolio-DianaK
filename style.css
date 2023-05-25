@@ -213,50 +213,6 @@ p {
   margin: 0 50px;
 }
 
-@media (max-width: 480px) {
-  .social-links li {
-    margin: 0 5px;
-  } 
-}
-.email-to {
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 25px;
-  text-decoration: none;
-  text-align: center;
-  font-family: "Courgette", cursive;
-}
-
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 25px;
-  text-decoration: none;
-  font-family: "Courgette", cursive;
-}
-
-.facebook-link {
-  text-align: center;
-  color: var(--primary-color);
-  font-size: 25px;
-  text-decoration: none;
-  display: block;
-  font-family: "Courgette", cursive;
-}
-
-
-
-
-.instagram-link {
-  text-align: center;
-  color: var(--primary-color);
-  font-size: 20px;
-  text-decoration: none;
-  display: block;
-  font-family: "Courgette", cursive;
-}
-
 
 
 .heyIAm {
@@ -325,4 +281,10 @@ p {
   .diana {
     font-size: 100px;
   }
+}
+
+@media (max-width: 480px) {
+  .social-links li {
+    margin: 0 5px;
+  } 
 }
