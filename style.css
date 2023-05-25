@@ -53,10 +53,12 @@ body {
 }
 
 .contact-me-title {
+  display: flex;
+  flex-direction: row;
   font-size: 50px;
   display: block;
   margin: 0 auto;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
   font-family: "Courgette", cursive;
 }
@@ -140,13 +142,6 @@ p {
   margin: 5px;
 }
 
-.github-logo {
-  margin-left: 15px;
-}
-
-.linkedin-logo {
-  margin-left: 5px;
-}
 
 .navigation-links {
   display: flex;
@@ -172,6 +167,12 @@ p {
   padding: 15px 25px;
   font-size: 20px;
   text-decoration: none;
+}
+
+#contact{
+
+  text-align: center;
+
 }
 
 .contact-link {
@@ -201,6 +202,17 @@ p {
   margin: 10px;
 }
 
+.social-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-links li {
+  margin: 0 50px;
+}
+
 .email-to {
   justify-content: center;
   color: var(--primary-color);
@@ -228,17 +240,8 @@ p {
   font-family: "Courgette", cursive;
 }
 
-.instagram-icon {
-  max-width: 30px;
-}
 
-.facebook-icon {
-  max-width: 30px;
-}
 
-.gmail-icon {
-  max-width: 30px;
-}
 
 .instagram-link {
   text-align: center;
