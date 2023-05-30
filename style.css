@@ -13,6 +13,14 @@
   color: #000000;
 }
 
+.resume-link {
+  color: #effcb6;
+}
+
+.resume-link:hover {
+  color: #000000;
+}
+
 .hero {
   background-color: #3dde38;
   margin-top: 100px;
